@@ -1,0 +1,21 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Nova Conta</title>
+	<link href="teste.css" rel="stylesheet"/>
+	<script src="scripts/seu-script.js"></script>
+</head>
+<body>
+<h2>República Fácil</h2>
+<h3>Nova Conta</h3>
+<form id="cadastro" method="POST" action="../addConta.php">
+	<label><input placeholder="Descrição da conta" type="text" class="caixa" name="conta"></label>
+	<label><p></p><input placeholder="Valor: R$" type="text" class="caixa" name="valor"></label>
+	<label><p>Data de Vencimento:</p><input type="date" class="caixa" name="vencimento"></label>
+	<label><p><input type="submit" class="button" value="Enviar"></p></label>
+</form>
+
+</body>
+</html>

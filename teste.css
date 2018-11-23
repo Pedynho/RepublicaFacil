@@ -1,0 +1,67 @@
+body{
+	
+	text-align: center;
+	color: #fff;
+	background-image: url("background-mesa.jpg");
+	font-family: Verdana,Geneva,'Bitstream Vera Sans','DejaVu Sans',sans-serif;
+	background-size: 100% 100%;
+	margin: 0%;
+}
+a{
+	color: white;
+}
+span{
+	color: red;
+}
+ul{
+	padding-left: 0px;
+}
+h2{
+	font-size: 30;
+	text-align: left;
+	margin-bottom: 8%;
+	background-color: #1f1f2e;
+	text-shadow: 2px 2px #000033;
+}
+h3{
+	font-size: 40;
+	color: white;
+	
+}
+p{
+	font-size: 25;
+}
+.button{
+	font-family: Verdana,Geneva,'Bitstream Vera Sans','DejaVu Sans',serif;
+	font-weight: 999 ;
+    background-color: #F2F2F2;
+    border: none;
+    color: #08088A;
+    padding: 10px;
+	width: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.caixa{
+	padding: 5px;
+	width: 25%;
+	border: groove;
+	font-size: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
