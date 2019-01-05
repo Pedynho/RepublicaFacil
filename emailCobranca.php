@@ -13,11 +13,11 @@
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';
-	$mail->Username = 'xpedrocaka@gmail.com';
-	$mail->Password = 'Pedro@moura123';
+	$mail->Username = 'email para enviar';
+	$mail->Password = 'sua senha';
 	$mail->Port = 587;
 
-	$mail->setFrom('xpedrocaka@gmail.com');
+	$mail->setFrom('de onde vai sair');
 	$mail->addReplyTo('no-reply@email.com.br');
 	$mail->addAddress('pedromourapc@gmail.com', 'Beltrano Santos');
 
